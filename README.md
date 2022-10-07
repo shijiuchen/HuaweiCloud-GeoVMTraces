@@ -5,4 +5,4 @@ This repository includes the VM request traces of the top 20 tenants in 4 months
 In Huawei Cloud, we have utilized the motivation analyzed from this trace dataset to develop our Geo-distributed resource reservation and scheduling strategy named _ROS_ into our cloud scheduler. We have conducted a data analysis on the trace and introduce the design of _ROS_ in a paper, named "**Characterizing and Orchestrating VM Reservation in
 Geo-distributed Clouds to Improve the Resource Efficiency**", which will be published in SoCC’22. We would encourage anybody who uses this trace to cite our paper.
 
-**So far, the internal data privacy protection process of Huawei Cloud has not been completed. We will open-source the trace data by December, 2021.**
+**So far, the internal data privacy protection process of Huawei Cloud has not been completed. We will open-source the trace data by December, 2022.**
