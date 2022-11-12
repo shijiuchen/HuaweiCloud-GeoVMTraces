@@ -11,7 +11,17 @@ There are some explainations of the traces for avoiding users' confusion.
 3. For the data of a tenant, if there's no record at a specific day, it means the tennat does not use the VMs at his day.
 
 ## Huawei Cloud Deployment
-In Huawei Cloud, we have utilized the motivation analyzed from this trace dataset to develop our Geo-distributed resource reservation and scheduling strategy named _ROS_ into our cloud scheduler. We have conducted a data analysis on the trace and introduce the design of _ROS_ in a paper, named "**Characterizing and Orchestrating VM Reservation in
-Geo-distributed Clouds to Improve the Resource Efficiency**", which will be published in SoCC’22. We would encourage anybody who uses this trace to cite our paper.
+In Huawei Cloud, we have utilized the motivation analyzed from this trace dataset to develop our Geo-distributed resource reservation and scheduling strategy named _ROS_ into our cloud scheduler. We have conducted a data analysis on the trace and introduce the design of _ROS_ in a paper, named [Characterizing and Orchestrating VM Reservation in
+Geo-distributed Clouds to Improve the Resource Efficiency](https://dl.acm.org/doi/pdf/10.1145/3542929.3563490), which was published in SoCC’22. We would encourage anybody who uses this trace to cite our paper.
+
+```BibTeX
+@inproceedings{shi2022characterizing,
+  title={Characterizing and orchestrating VM reservation in geo-distributed clouds to improve the resource efficiency},
+  author={Shi, Jiuchen and Fu, Kaihua and Chen, Quan and Yang, Changpeng and Huang, Pengfei and Zhou, Mosong and Zhao, Jieru and Chen, Chen and Guo, Minyi},
+  booktitle={Proceedings of the 13th Symposium on Cloud Computing},
+  pages={94--109},
+  year={2022}
+}
+```
 
 **So far, the internal data privacy protection process of Huawei Cloud has not been completed. We will open-source the trace data by December, 2022.**
