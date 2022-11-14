@@ -12,7 +12,7 @@ There are some explainations of the traces for avoiding users' confusion.
 
 ## Huawei Cloud Deployment
 In Huawei Cloud, we have utilized the motivation analyzed from this trace dataset to develop our Geo-distributed resource reservation and scheduling strategy named _ROS_ into our cloud scheduler. We have conducted a data analysis on the trace and introduce the design of _ROS_ in a paper, named [Characterizing and Orchestrating VM Reservation in
-Geo-distributed Clouds to Improve the Resource Efficiency](https://dl.acm.org/doi/pdf/10.1145/3542929.3563490), which was published in SoCC’22. We would encourage anybody who uses this trace to cite our paper.
+Geo-distributed Clouds to Improve the Resource Efficiency](https://dl.acm.org/doi/pdf/10.1145/3542929.3563490), which was published in SoCC’22. This paper is a collaboration between SJTU-EPCC and Huawei Cloud. We would encourage anybody who uses this trace to cite our paper.
 
 ```BibTeX
 @inproceedings{shi2022characterizing,
